@@ -80,5 +80,7 @@ app.post('/api/generate-image', async (req, res) => {
         res.status(500).json({ error: err.message });
     }
 });
+module.exports = app;
+
 
 module.exports = app;
